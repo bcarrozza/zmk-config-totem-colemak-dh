@@ -71,17 +71,17 @@
                &mt LEFT_META Q  &kp W       &kp F         &kp P        &kp B        &kp J        &kp L            &kp U        &kp Y       &mt RIGHT_META SEMI
                &kp A            &mt LALT R  &mt LCTRL S   &mt LSHFT T  &kp G        &kp M        &mt RSHFT N      &mt RCTRL E  &mt RALT I  &kp O
 &kp BACKSLASH  &kp Z            &kp X       &kp C         &kp D        &kp V        &kp K        &kp H            &kp COMMA    &kp DOT     &kp FSLH             &kp APOS
-                                            &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 5 ENTER  &lt 4 BACKSPACE  &lt 0 DEL
+                                            &lt 3 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DEL
             >;
         };
 
         NAV {
             label = "Nav";
             bindings = <
-        &kp K_UNDO     &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO     &trans         &trans        &trans            &trans          &trans
-        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK   &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
-&trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END        &kp INSERT    &trans  &trans         &trans        &trans            &trans          &trans
-                                     &trans            &trans          &trans    &kp ENTER     &kp BACKSPACE   &kp DELETE
+        &kp K_UNDO      &kp K_CUT       &kp K_COPY    &kp K_PASTE      &kp K_REDO      &trans     &trans           &trans             &trans         &trans
+        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK    &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
+&trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp INSERT      &trans     &trans           &trans             &trans         &trans          &trans
+                                        &trans        &trans           &trans          &kp ENTER  &kp BACKSPACE    &kp DELETE
             >;
         };
 
@@ -108,10 +108,10 @@
         NUM {
             label = "Num";
             bindings = <
-        &trans         &trans        &trans            &trans          &trans     &trans  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL     
-        &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans     &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  
-&trans  &trans         &trans        &trans            &trans          &trans     &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &trans
-                                     &kp COMMA         &kp PERIOD      &kp FSLH   &trans  &trans        &trans
+        &trans         &trans        &trans            &trans          &trans      &trans  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL
+        &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans      &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8
+&trans  &trans         &trans        &trans            &trans          &trans      &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans
+                                     &kp COMMA         &kp PERIOD      &kp FSLH    &trans  &trans        &trans
             >;
         };
 
@@ -122,6 +122,16 @@
         &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
 &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans     &trans           &trans             &trans         &trans          &trans
                                     &kp COMMA     &kp PERIOD    &kp FSLH    &kp ENTER  &kp BACKSPACE    &kp DELETE
+            >;
+        };
+
+        FUN {
+            label = "Fun";
+            bindings = <
+        &trans         &trans        &trans            &trans          &trans      &trans  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL
+        &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans      &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8
+&trans  &trans         &trans        &trans            &trans          &trans      &trans  &kp F1        &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans
+                                     &kp COMMA         &kp PERIOD      &kp FSLH    &trans  &trans        &trans
             >;
         };
     };
