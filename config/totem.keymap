@@ -32,21 +32,19 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
-        };
-
         ALT+SysRq {
             bindings = <&kp RA(SYSREQ)>;
             key-positions = <32 37>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <0 1>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
         };
     };
 
