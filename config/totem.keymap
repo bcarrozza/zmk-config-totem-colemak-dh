@@ -108,10 +108,10 @@
         NUM {
             label = "Num";
             bindings = <
-        &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &trans     &trans           &trans             &trans         &trans
-        &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans     &trans           &trans             &trans         &trans          &trans
-                                    &kp COMMA     &kp PERIOD    &kp FSLH    &kp ENTER  &kp BACKSPACE    &kp DELETE
+        &trans         &trans        &trans            &trans          &trans     &trans  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS     &kp EQUAL     
+        &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans     &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  
+&trans  &trans         &trans        &trans            &trans          &trans     &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
+                                     &kp COMMA         &kp PERIOD      &kp FSLH   &trans  &trans        &trans
             >;
         };
 
