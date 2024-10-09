@@ -53,3 +53,7 @@ It's meant to be used with a SEEED XIAO BLE or RP2040.
 ## Sym
 
 ![Base](/docs/images/sym.png)
+
+## Combos
+
+![Base](/docs/images/combos.png)
