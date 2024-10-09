@@ -78,9 +78,9 @@
         NAV {
             label = "Nav";
             bindings = <
-        &trans         &trans        &trans            &trans          &trans    &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
-        &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&trans  &trans         &trans        &trans            &trans          &trans    &kp INSERT    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+        &kp K_UNDO     &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO     &trans         &trans        &trans            &trans          &trans
+        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK   &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
+&trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END        &kp INSERT    &trans  &trans         &trans        &trans            &trans          &trans
                                      &trans            &trans          &trans    &kp ENTER     &kp BACKSPACE   &kp DELETE
             >;
         };
