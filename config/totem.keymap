@@ -43,6 +43,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog 0>;
         };
+
+        ALT+SysRq {
+            bindings = <&kp RA(SYSREQ)>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
@@ -118,10 +123,10 @@
         SYM {
             label = "Sym";
             bindings = <
-        &kp MINUS     &kp NUMBER_7  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &trans     &trans           &trans             &trans         &trans
-        &kp EQUAL     &kp NUMBER_4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans     &trans           &trans             &trans         &trans          &trans
-                                    &kp COMMA             &kp PERIOD             &kp FSLH    &kp ENTER  &kp BACKSPACE    &kp DELETE
+        &kp MINUS     &kp NUMBER_7    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &trans     &trans           &trans             &trans         &trans
+        &kp EQUAL     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
+&trans  &kp NUMBER_0  &kp NUMBER_1    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans     &trans           &trans             &trans         &trans          &trans
+                                      &kp COMMA             &kp PERIOD             &kp FSLH    &kp ENTER  &kp BACKSPACE    &kp DELETE
             >;
         };
 
