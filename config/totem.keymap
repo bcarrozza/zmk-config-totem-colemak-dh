@@ -33,7 +33,7 @@
         compatible = "zmk,combos";
 
         ALT+SysRq {
-            bindings = <&kp RA(SYSREQ)>;
+            bindings = <&mt RA(SYSREQ) RA(SYSREQ)>;
             key-positions = <32 37>;
         };
 
