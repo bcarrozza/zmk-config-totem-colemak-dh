@@ -30,34 +30,34 @@ It's meant to be used with a SEEED XIAO BLE or RP2040.
 - drag'n'drop the `totem_left-seeeduino_xiao_ble-zmk.uf2` file from the archive onto the storage device
 - repeat this process with the right half and the `totem_right-seeeduino_xiao_ble-zmk.uf2` file.
 
-## 0 Base
+## 0 BaseCombos
 
 ![Base](/docs/images/base.png)
 
 ## 1 Nav
 
-![Base](/docs/images/nav.png)
+![Nav](/docs/images/nav.png)
 
 ## 2 Mouse
 
-![Base](/docs/images/mouse.png)
+![Mouse](/docs/images/mouse.png)
 
 ## 3 Media
 
-![Base](/docs/images/media.png)
+![Media](/docs/images/media.png)
 
 ## 4 Num
 
-![Base](/docs/images/num.png)
+![Num](/docs/images/num.png)
 
 ## 5 Sym
 
-![Base](/docs/images/sym.png)
+![Sym](/docs/images/sym.png)
 
 ## 6 Fun
 
-![Base](/docs/images/fun.png)
+![Fun](/docs/images/fun.png)
 
 ## Combos
 
-![Base](/docs/images/combos.png)
+![Combos](/docs/images/combos.png)
