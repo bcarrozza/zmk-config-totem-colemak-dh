@@ -32,9 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        ALT+SysRq {
-            bindings = <&mt RA(SYSREQ) RA(SYSREQ)>;
-            key-positions = <32 37>;
+        Alt_Sysreq_R {
+            bindings = <&Alt_Sysreq_R>;
+            key-positions = <32 37 11>;
         };
 
         backspace {
@@ -45,6 +45,36 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <2 3>;
+        };
+
+        Alt_Sysreq_E {
+            bindings = <&Alt_Sysreq_E>;
+            key-positions = <32 37 17>;
+        };
+
+        Alt_Sysreq_I {
+            bindings = <&Alt_Sysreq_I>;
+            key-positions = <32 37 18>;
+        };
+
+        Alt_Sysreq_S {
+            bindings = <&Alt_Sysreq_S>;
+            key-positions = <32 37 12>;
+        };
+
+        Alt_Sysreq_U {
+            bindings = <&Alt_Sysreq_U>;
+            key-positions = <32 37 7>;
+        };
+
+        Alt_Sysreq_B {
+            bindings = <&Alt_Sysreq_B>;
+            key-positions = <32 37 4>;
+        };
+
+        Alt_Sysreq_O {
+            bindings = <&Alt_Sysreq_O>;
+            key-positions = <32 37 19>;
         };
     };
 
@@ -62,6 +92,83 @@
                 <&kp LSHFT>,
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
+        };
+
+        Alt_Sysreq_R: Alt_Sysreq_R {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp R>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_R";
+        };
+
+        Alt_Sysreq_E: Alt_Sysreq_E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp E>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_E";
+        };
+
+        Alt_Sysreq_I: Alt_Sysreq_I {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp I>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_I";
+        };
+
+        Alt_Sysreq_S: Alt_Sysreq_S {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp S>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_S";
+        };
+
+        Alt_Sysreq_U: Alt_Sysreq_U {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp U>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_U";
+        };
+
+        Alt_Sysreq_B: Alt_Sysreq_B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp B>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_B";
+        };
+
+        Alt_Sysreq_O: Alt_Sysreq_O {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT &kp SYSREQ &kp O>,
+                <&macro_release>;
+
+            label = "ALT_SYSREQ_O";
         };
     };
 
@@ -81,7 +188,7 @@
         NAV {
             label = "Nav";
             bindings = <
-        &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY  &kp C_AC_PASTE   &kp C_AC_REDO    &trans     &trans           &trans             &trans         &trans
+        &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY  &kp C_AC_PASTE   &kp C_AC_REDO    &gif       &trans           &trans             &trans         &trans
         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp CAPSLOCK     &trans     &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
 &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP    &kp END          &kp INSERT       &trans     &trans           &trans             &trans         &trans          &trans
                                         &trans         &trans           &trans           &kp ENTER  &kp BACKSPACE    &kp DELETE
